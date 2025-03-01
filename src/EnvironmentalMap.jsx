@@ -3,8 +3,9 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import axios from 'axios';
 import 'leaflet/dist/leaflet.css';
-import Navbar from './Navbar';
 import './styles.css';
+import Navbar from "./Navbar"; 
+
 
 // Configure Leaflet marker icons
 delete L.Icon.Default.prototype._getIconUrl;
